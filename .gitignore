@@ -1,0 +1,5 @@
+backend/storage/*.json
+backend/uploads/event-posters/*
+!backend/uploads/event-posters/.gitkeep
+.env
+.DS_Store

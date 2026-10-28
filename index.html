@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="StudentHub campus portal">
+    <title>StudentHub | Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body><a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header"><a class="brand" href="index.html" aria-label="StudentHub home">🎓 StudentHub</a><button
+            class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+        <nav id="primary-nav" aria-label="Main navigation">
+            <ul>
+                <li><a aria-current="page" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="announcement" class="announcement" role="status">Welcome to StudentHub! Explore campus events and student
+        resources. <button id="dismiss-announcement" aria-label="Dismiss announcement">×</button></div>
+    <main id="main" class="container">
+        <section class="hero">
+            <p class="eyebrow">Your campus, connected</p>
+            <h1>Welcome to StudentHub</h1>
+            <p>Discover events, connect with students, and keep campus information in one place.</p>
+            <div class="button-row"><a class="button" href="events.html">Explore events</a><a
+                    class="button button-outline" href="register.html">Create account</a></div>
+        </section>
+        <section class="section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Stay in the loop</p>
+                    <h2>Latest announcements</h2>
+                </div>
+            </div>
+            <article class="card">
+                <h3>Tech Symposium registration open</h3>
+                <p>Check the Events page for details and registration information.</p>
+            </article>
+        </section>
+        <section class="section">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Find your next experience</p>
+                    <h2>Explore StudentHub</h2>
+                </div>
+            </div>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>Campus events</h3>
+                    <p>Browse events, dates and categories.</p><a href="events.html">View events →</a>
+                </article>
+                <article class="card">
+                    <h3>Student directory</h3>
+                    <p>Search sample student profiles.</p><a href="directory.html">Browse directory →</a>
+                </article>
+                <article class="card">
+                    <h3>Help desk</h3>
+                    <p>Find answers to common questions.</p><a href="faq.html">Visit FAQ →</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>© 2026 StudentHub — ITUE203 WDF educational project.</p>
+        <nav aria-label="Footer navigation"><a href="about.html">About</a><a href="contact.html">Contact</a><a
+                href="feedback.html">Feedback</a></nav>
+    </footer>
+    <div id="site-modal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-panel"><button id="modal-close" class="modal-close" aria-label="Close dialog">×</button>
+            <h2 id="modal-title">StudentHub notice</h2>
+            <p>This portal is a semester practical project.</p>
+        </div>
+    </div>
+    <script src="assets/js/main.js" defer></script>
+</body>
+
+</html>
